@@ -12,6 +12,14 @@ See CMake tutorial.
 
 TODO: vcpkg
 
+## Format
+
+Requirements:
+
+* [Clang](https://llvm.org/)
+
+TODO
+
 ## Generate documentation
 
 Requirements:
