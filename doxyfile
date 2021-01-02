@@ -21,4 +21,4 @@ EXTRACT_ALL            = YES
 # RECURSIVE              = NO
 SOURCE_BROWSER         = YES
 GENERATE_LATEX         = NO
-HTML_OUTPUT            = ./
+HTML_OUTPUT            = .
