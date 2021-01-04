@@ -5,20 +5,11 @@ PROJECT_BRIEF          = "Hello World project"
 OUTPUT_DIRECTORY       = ./build/doc
 ALLOW_UNICODE_NAMES    = YES
 # OUTPUT_LANGUAGE        = English
-ABBREVIATE_BRIEF       = "The $name class" \
-                         "The $name widget" \
-                         "The $name file" \
-                         is \
-                         provides \
-                         specifies \
-                         contains \
-                         represents \
-                         a \
-                         an \
-                         the
 OPTIMIZE_OUTPUT_FOR_C  = YES
 EXTRACT_ALL            = YES
-# RECURSIVE              = NO
+RECURSIVE              = YES
+EXCLUDE_PATTERNS       = */vcpkg/* \
+                         */build/*
 SOURCE_BROWSER         = YES
 GENERATE_LATEX         = NO
 HTML_OUTPUT            = .
