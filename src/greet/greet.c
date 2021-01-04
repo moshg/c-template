@@ -8,10 +8,9 @@ void greet(void)
 
 int greet_n(int n)
 {
-    const char *const str = "Hello World!";
+    const char* const str = "Hello World!";
     const int chars = strlen(str);
-    for (int i = 0; i < n; i++)
-    {
+    for (int i = 0; i < n; i++) {
         puts("Hello World!");
     }
     return chars * n;

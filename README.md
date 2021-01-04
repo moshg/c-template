@@ -18,7 +18,11 @@ Requirements:
 
 * [Clang](https://llvm.org/)
 
-TODO
+e.g. in order to format `helloworld.c`, run the command:
+
+```sh
+clang-format -i helloworld.c
+```
 
 ## Generate documentation
 
